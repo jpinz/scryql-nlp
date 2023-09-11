@@ -1,0 +1,12 @@
+text,labels
+"I want a creature with more than a mana cost of 5, that has a power of 3.","['t:creature', 'mv=5', 'pow=3']"
+"I want a red legendary creature with flying.","['c:r', 't:legend', 't:creature', 'o:flying']"
+"I want an equipment that provides haste.","['t:equipment', 'o:haste']"
+"I want an equipment that costs more than 4 and has an equip cost of 2.","['t:equipment', 'mv>4', 'o:\"equip {2}\"']"
+"I want a creature with a power of 2 and a toughness of 1.","['t:creature', 'pow=2', 'tou=1']"
+"I want a blue creature that is a fish or a bird.","['c:u', 't:creature', '(', 't:fish', 'or', t:bird', ')']"
+"I want a creature with a mana cost of 3 or less that has flying and is not a legendary creature.","['t:creature', 'mv<=3', 'o:flying', '-t:legend']"
+"I want a green creature with a power of 4 or greater that has trample and is not a legendary creature.","['c:g', 't:creature', 'pow>=4', 'o:trample', '-t:legend']"
+"I want a creature with a mana cost of 2 or less that has first strike and is a legendary creature.","['t:creature', 'mv<=2', 'o:\"first strike\"', 't:legend']"
+"I want a black and blue creature with a mana cost of 4 or greater that has deathtouch.","['c:bu', 't:creature', 'mv>=4', 'o:deathtouch']"
+"I want a creature with a mana cost of 3 or less that has double strike and is not a legendary creature.","['t:creature', 'mv<=3', 'o:\"double strike\"', '-t:legend']"
